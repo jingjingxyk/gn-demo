@@ -33,11 +33,11 @@ git clone https://gn.googlesource.com/gn
 工具库
 文档
 
-## 
-tmpfs 解决IO瓶颈,充分利用本机内存资源
-make -j 充分利用本机计算资源
-distcc 利用多台计算机资源
-ccache 减少重复编译相同代码时间
+## 分布式构建
+1. tmpfs 解决IO瓶颈,充分利用本机内存资源
+1. make -j 充分利用本机计算资源
+1. distcc 利用多台计算机资源
+1. ccache 减少重复编译相同代码时间
 
 ## build example
 ```shell
