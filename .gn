@@ -1,0 +1,8 @@
+import("//build/dotfile_settings.gni")
+# The location of the build configuration file.
+buildconfig = "//build//BUILDCONFIG.gn"
+
+default_args = {
+}
+
+no_check_targets = []
