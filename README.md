@@ -10,13 +10,11 @@ git clone https://gn.googlesource.com/gn
 
 
 ## gn gn standalone start
-[gn standalone start ](https://gn.googlesource.com.0.dengxiaci.com/gn/+/master/docs/standalone.md)
+[gn standalone start ](https://gn.googlesource.com/gn/+/master/docs/standalone.md)
 [gn ](http://blog.simplypatrick.com/posts/2016/01-23-gn/)
 
-[gn standalone.md](https://gn.googlesource.com.0.dengxiaci.com/gn/+/master/docs/standalone.md)
-[gn chromium demo 1](https://source-code.2.dengxiaci.com/chromium/.gn)
-[gn chromium demo 2](https://source-code.2.dengxiaci.com/chromium/build/dotfile_settings.gni)
-[gn chromium demo 3](https://source-code.2.dengxiaci.com/chromium/build/config/BUILDCONFIG.gn)
+[gn standalone.md](https://gn.googlesource.com/gn/+/master/docs/standalone.md)
+
 
 [GN 快速入门指南](https://blog.csdn.net/Vincent95/article/details/78499883)
 
@@ -26,12 +24,16 @@ git clone https://gn.googlesource.com/gn
  2. 构建编译环境，利用 gn 生成 ninja 文件
  3. gn 生成的 ninjia 文件并通过工具 ninjia 进行最终编译成想要的目标
 
+```text
 开发工具
 工具链
 运行时
 平台相关库
 工具库
 文档
+
+```
+
 
 ## 分布式构建
 1. tmpfs 解决IO瓶颈,充分利用本机内存资源
